@@ -181,7 +181,7 @@ bus! {
     TIM11 => (APB2, 21),
 }
 
-#[cfg(any(feature = "stm32f102", feature = "stm32f103"))]
+#[cfg(any(feature = "stm32f102", feature = "stm32f103", feature = "connectivity"))]
 bus! {
     USB => (APB1, 23),
 }
